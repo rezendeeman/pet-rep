@@ -2,3 +2,44 @@
 .menu > li {
     border: 1px solid tomato;
 }
+
+
+:root{
+    --color-text: orange;
+}
+
+/* Незвичне форматування фігурних дужок - це нормально */
+a[href="https://htmlreference.io"] {
+    color: var(--color-text);
+}
+
+a[href="https://cssreference.io"] {
+    color: var(--color-text);
+}
+
+a[href="https://www.youtube.com"] {
+    color: var(--color-text);
+}
+
+.link {
+    color: teal;
+}
+
+.link:focus,
+.link:hover {
+    color: tomato;
+}
+
+.link:active {
+    color:blueviolet;
+}
+
+.link:visited {
+    color: green;
+}
+
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
